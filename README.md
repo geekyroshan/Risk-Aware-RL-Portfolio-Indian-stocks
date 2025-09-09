@@ -60,25 +60,26 @@ The agent balances return vs. risk and accounts for transaction costs, then serv
 - **Environment:** Custom `gymnasium` env in `env/portfolio_env.py`.
 
 ---
-
-## Repo structure
+<details>
+ <summary>Repo structure</summary>
+```
 portfolio_indian_stock/
-├─ app.py                     # Streamlit app
+├─ app.py                      # Streamlit app
 ├─ env/
-│  └─ portfolio_env.py        # Custom Gymnasium environment
+│  └─ portfolio_env.py         # Custom Gymnasium environment
 ├─ src/
-│  ├─ build_dataset_india.py  # Downloads data & builds features
-│  ├─ train.py                # Trains PPO; saves best_model/best_model.zip
-│  └─ evaluate.py             # Backtest plots + metrics
+│  ├─ build_dataset_india.py   # Downloads data & builds features
+│  ├─ train.py                 # Trains PPO; saves best_model/best_model.zip
+│  └─ evaluate.py              # Backtest plots + metrics
 ├─ data/
 │  └─ portfolio_features_india.csv
 ├─ best_model/
-│  └─ best_model.zip          # Trained policy (SB3)
+│  └─ best_model.zip           # Trained policy (SB3)
 ├─ requirements.txt
 ├─ runtime.txt
 └─ README.md
-
-
+</details>
+```
 ---
 
 ## Quick start (local)
