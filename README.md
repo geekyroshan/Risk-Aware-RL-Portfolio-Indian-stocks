@@ -29,7 +29,7 @@ The agent balances return vs. risk and accounts for transaction costs, then serv
 
 
 
-![Equity curve](newplot.png.png)
+![Equity curve](newplot.png)
 
 ---
 
